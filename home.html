@@ -5,93 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
-    <title>Mini Oneline Shopping mall</title>
+    <title>Mini Online Shopping</title>
   </head>
-  <body>
+  <body class="body">
     <!-- Logo -->
     <header class="header">
-      <img src="imgs/logo.png" class="logo" />
+      <button><img src="imgs/logo.png" class="logo" /></button>
     </header>
 
     <!-- selector_nav -->
     <ul class="selectors">
       <li>
-        <button><img src="imgs/blue_s.png" /></button>
+        <button class="shirt">
+          <img src="imgs/blue_t.png" data-key="type" data-value="shirt" />
+        </button>
       </li>
       <li>
-        <button><img src="imgs/blue_p.png" /></button>
+        <button class="pants">
+          <img src="imgs/blue_p.png" data-key="type" data-value="pants" />
+        </button>
       </li>
       <li>
-        <button><img src="imgs/blue_s.png" /></button>
+        <button class="skirt">
+          <img src="imgs/blue_s.png" data-key="type" data-value="skirt" />
+        </button>
       </li>
       <li>
-        <button class="blue">Blue</button>
+        <button class="blue" data-key="color" data-value="blue">Blue</button>
       </li>
       <li>
-        <button class="yellow">Yellow</button>
+        <button class="yellow" data-key="color" data-value="yellow">
+          Yellow
+        </button>
       </li>
       <li>
-        <button class="pink">Pink</button>
+        <button class="pink" data-key="color" data-value="pink">Pink</button>
       </li>
     </ul>
 
     <!--Search lists -->
-    <ul class="lists">
-      <li class="item">
-        <img src="imgs/pink_p.png" alt="" /><span>male, small size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/blue_s.png" alt="" /><span>female, large size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/yellow_t.png" alt="" /><span>male, large size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/blue_p.png" alt="" /><span>male, small size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/pink_s.png" alt="" /><span>female, small size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/pink_t.png" alt="" /><span>female, large size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/yellow_p.png" alt="" /><span>male, small size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/yellow_s.png" alt="" /><span>female, small size</span>
-      </li class="item">
-      <li class="item">
-        <img src="imgs/blue_t.png" alt="" /><span>male, large size</span>
-      </li>
-      <!-- second repeat -->
-      <li class="item">
-        <img src="imgs/pink_p.png" alt="" /><span>male, large size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/blue_s.png" alt="" /><span>female, small size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/yellow_t.png" alt="" /><span>male, small size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/blue_p.png" alt="" /><span>male, large size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/pink_s.png" alt="" /><span>female, large size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/pink_t.png" alt="" /><span>female, small size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/yellow_p.png" alt="" /><span>male, large size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/yellow_s.png" alt="" /><span>female, large size</span>
-      </li>
-      <li class="item">
-        <img src="imgs/blue_t.png" alt="" /><span>male, small size</span>
-      </li>
-    </ul>
+    <ul class="lists"></ul>
   </body>
 </html>

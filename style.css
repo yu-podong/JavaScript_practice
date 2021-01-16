@@ -85,6 +85,10 @@ ul img {
   display: none;
 }
 
+.list .item .invisible {
+  display: none;
+}
+
 .lists .item {
   display: flex;
   flex-direction: row;
